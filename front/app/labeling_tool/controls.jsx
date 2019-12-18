@@ -389,7 +389,7 @@ class Controls extends React.Component {
       this.labelTool.getURL('unlock'),
       null,
       res => {
-        window.close();
+        location.href = this.labelTool.getURL('mypage');
       },
       err => {
       }

@@ -389,6 +389,9 @@ export default class LabelTool_ extends React.Component {
       PROJECT_ROOT + 'datasets/' + this.datasetId + '/';
     let ret = null;
     switch (type) {
+      case 'mypage':
+        ret = '/application/mypage/';
+        break;
       case 'project':
         ret = PROJECT_ROOT;
         break;
